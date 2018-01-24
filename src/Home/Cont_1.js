@@ -23,7 +23,7 @@ const content = [
   }
 ];
 
-export default class Cont_1 extends React.Component {
+export class Cont1 extends React.Component {
   render() {
     const con_1 = content[0];
     const con_2 = content[1];

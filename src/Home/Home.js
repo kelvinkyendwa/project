@@ -1,29 +1,22 @@
 import React from 'react';
+import { Navbar } from './Navbar';
+import { Banner } from './Banner';
+import { Cont1 } from './Cont_1';
+import { Cont2 } from './Cont_2';
+import { Contact } from './Contact';
+import { Footer } from './Footer';
 
-export default class Navbar extends React.Component {
+export default class Home extends React.Component {
   render() {
     return (
-      <nav className="black" role="navigation">
-        <div className="nav-wrapper container">
-          <a id="logo-container" href="#" className="brand-logo">
-            React DOM
-          </a>
-          <ul className="right hide-on-med-and-down">
-            <li>
-              <a href="#">Home</a>
-            </li>
-          </ul>
-
-          <ul id="nav-mobile" className="sidenav">
-            <li>
-              <a href="#">Navbar Link</a>
-            </li>
-          </ul>
-          <a href="#" data-target="nav-mobile" className="sidenav-trigger">
-            <i className="material-icons">menu</i>
-          </a>
-        </div>
-      </nav>
+      <div>
+        <Navbar />
+        <Banner />
+        <Cont1 />
+        <Cont2 />
+        <Contact />
+        <Footer />
+      </div>
     );
   }
 }
