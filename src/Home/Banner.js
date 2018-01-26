@@ -1,11 +1,11 @@
 import React from 'react';
-import bg1 from './background1.jpg';
+
 const bgd =
   'http://piermonkey.com/wp-content/uploads/2016/03/Dollarphotoclub_99956429-e1457722404630-1000x600.jpg';
 export class Banner extends React.Component {
   render() {
     return (
-      <div className="parallax-container">
+      <div id="index-banner" className="parallax-container">
         <div className="section no-pad-bot black">
           <div className="container">
             <br />
@@ -18,9 +18,22 @@ export class Banner extends React.Component {
                 Recreated a Material Theme using React JS
               </h5>
             </div>
+
+            <div className="row center">
+              <a
+                href="/Home"
+                id="download-button"
+                className="btn-large waves-effect waves-light teal lighten-1"
+              >
+                Get Started
+              </a>
+            </div>
             <br />
             <br />
           </div>
+        </div>
+        <div className="parallax">
+          <img src={bgd} alt="Unsplashed background img 1" />
         </div>
       </div>
     );

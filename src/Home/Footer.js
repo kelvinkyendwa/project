@@ -1,13 +1,18 @@
 import React from 'react';
 
 export class Footer extends React.Component {
+  changeName() {
+    alert('My name changes');
+  }
   render() {
     return (
       <footer className="page-footer black">
         <div className="container">
           <div className="row">
             <div className="col l6 s12">
-              <h5 className="white-text">Kelvin Mitau</h5>
+              <h5 className="white-text" onClick={this.changeName}>
+                Kelvin Mitau
+              </h5>
               <p className="grey-text text-lighten-4">
                 We are a team of college students working on this project like
                 its our full time job.

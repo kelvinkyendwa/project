@@ -29,38 +29,40 @@ export class Cont1 extends React.Component {
     const con_2 = content[1];
     const con_3 = content[2];
     return (
-      <div class="section">
-        <div class="row">
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text">
-                <i class="material-icons">{con_1.icon}</i>
-              </h2>
-              <h5 class="center">{con_1.title}</h5>
+      <div className="container">
+        <div className="section">
+          <div className="row">
+            <div className="col s12 m4">
+              <div className="icon-block">
+                <h2 className="center brown-text">
+                  <i className="material-icons">{con_1.icon}</i>
+                </h2>
+                <h5 className="center">{con_1.title}</h5>
 
-              <p class="light">{con_1.body}</p>
+                <p className="light">{con_1.body}</p>
+              </div>
             </div>
-          </div>
 
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text">
-                <i class="material-icons">{con_2.icon}</i>
-              </h2>
-              <h5 class="center">{con_2.title}</h5>
+            <div className="col s12 m4">
+              <div className="icon-block">
+                <h2 className="center brown-text">
+                  <i className="material-icons">{con_2.icon}</i>
+                </h2>
+                <h5 className="center">{con_2.title}</h5>
 
-              <p class="light">{con_2.body}</p>
+                <p className="light">{con_2.body}</p>
+              </div>
             </div>
-          </div>
 
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text">
-                <i class="material-icons">{con_3.icon}</i>
-              </h2>
-              <h5 class="center">{con_3.title}</h5>
+            <div className="col s12 m4">
+              <div className="icon-block">
+                <h2 className="center brown-text">
+                  <i className="material-icons">{con_3.icon}</i>
+                </h2>
+                <h5 className="center">{con_3.title}</h5>
 
-              <p class="light">{con_3.body}</p>
+                <p className="light">{con_3.body}</p>
+              </div>
             </div>
           </div>
         </div>

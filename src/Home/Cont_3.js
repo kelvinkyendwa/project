@@ -1,10 +1,10 @@
 import React from 'react';
 
-export class Cont2 extends React.Component {
+export class Cont3 extends React.Component {
   render() {
     return (
       <div>
-        <div className="parallax-container valign-wrapper cyan">
+        <div className="parallax-container valign-wrapper  cyan lighten-2">
           <div className="section no-pad-bot">
             <div className="container">
               <div className="row center">
@@ -16,7 +16,7 @@ export class Cont2 extends React.Component {
             </div>
           </div>
           <div className="parallax">
-            <img src="background2.jpg" alt="Unsplashed background img 2" />
+            <img src="background3.jpg" alt="Unsplashed background img 3" />
           </div>
         </div>
       </div>
