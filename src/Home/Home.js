@@ -6,7 +6,7 @@ import { Cont2 } from './Cont_2';
 import { Cont3 } from './Cont_3';
 import { Contact } from './Contact';
 import { Footer } from './Footer';
-import bg1 from './background1.jpg';
+
 
 export default class Home extends React.Component {
   render() {

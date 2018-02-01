@@ -3,7 +3,7 @@ import React from 'react';
 export class Navbar extends React.Component {
   render() {
     return (
-      <nav className="black" role="navigation">
+      <nav className="white" role="navigation">
         <div className="nav-wrapper container">
           <a id="logo-container" href="/" className="brand-logo">
             React DOM

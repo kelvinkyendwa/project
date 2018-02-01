@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import './css/style.css';
 import './css/materialize.css';
+import './css/style.css';
+import './index.css';
 
 import Home from './Home/Home';
 

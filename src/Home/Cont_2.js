@@ -18,7 +18,9 @@ export class Cont2 extends React.Component {
               </div>
             </div>
           </div>
-          <Parallax imageSrc={bgs} alt="Unsplashed background img 1" />
+          <div className="parallax">
+            <Parallax imageSrc={bgs} alt="Unsplashed background img 1" />
+          </div>
         </div>
       </div>
     );

@@ -1,9 +1,7 @@
 import React from 'react';
 import bg1 from './background1.jpg';
-import { Button, Icon, Parallax } from 'react-materialize';
+import { Parallax } from 'react-materialize';
 
-const bgd =
-  'http://piermonkey.com/wp-content/uploads/2016/03/Dollarphotoclub_99956429-e1457722404630-1000x600.jpg';
 export class Banner extends React.Component {
   render() {
     var toastHTML =
@@ -14,11 +12,11 @@ export class Banner extends React.Component {
           <div className="container">
             <br />
             <br />
-            <h1 className="header center cyan-text text-lighten-2">
+            <h1 className="header center teal-text text-lighten-2">
               React Project
             </h1>
             <div className="row center">
-              <h5 className="header col s12 white-text light">
+              <h5 className="header col s12 light">
                 Recreated a Material Theme using React JS
               </h5>
             </div>
@@ -39,7 +37,9 @@ export class Banner extends React.Component {
             <br />
           </div>
         </div>
-        <Parallax imageSrc={bg1} alt="Unsplashed background img 1" />
+        <div className="parallax">
+          <img src={bg1} alt="Unsplashed background img 1" />
+        </div>
       </div>
     );
   }

@@ -1,10 +1,12 @@
 import React from 'react';
+import { Parallax } from 'react-materialize';
+import bgs from './background2.jpg';
 
 export class Cont3 extends React.Component {
   render() {
     return (
       <div>
-        <div className="parallax-container valign-wrapper  cyan lighten-2">
+        <div className="parallax-container valign-wrapper lighten-2">
           <div className="section no-pad-bot">
             <div className="container">
               <div className="row center">
@@ -16,7 +18,7 @@ export class Cont3 extends React.Component {
             </div>
           </div>
           <div className="parallax">
-            <img src="background3.jpg" alt="Unsplashed background img 3" />
+            <Parallax imageSrc={bgs} alt="Unsplashed background img 1" />
           </div>
         </div>
       </div>
