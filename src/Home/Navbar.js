@@ -2,6 +2,20 @@ import React from 'react';
 
 export class Navbar extends React.Component {
   render() {
+    const navlinks = [
+      {
+        title: 'home',
+        link: '#home'
+      },
+      {
+        title: 'about',
+        link: '#about'
+      },
+      {
+        title: 'contact',
+        link: '#contact'
+      }
+    ];
     return (
       <nav className="white" role="navigation">
         <div className="nav-wrapper container">
