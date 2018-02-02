@@ -1,5 +1,6 @@
 import React from 'react';
-
+const mitau =
+  'This is a Template from the materia libarary that i have recreated using react jsx to split the ui into react components ';
 export class Footer extends React.Component {
   changeName() {
     alert('My name changes');
@@ -13,10 +14,7 @@ export class Footer extends React.Component {
               <h5 className="white-text" onClick={this.changeName}>
                 Kelvin Mitau
               </h5>
-              <p className="grey-text text-lighten-4">
-                We are a team of college students working on this project like
-                its our full time job.
-              </p>
+              <p className="grey-text text-lighten-4">{mitau}</p>
             </div>
 
             <div className="col l3 s12">
@@ -48,12 +46,18 @@ export class Footer extends React.Component {
               <h5 className="white-text">Go Social</h5>
               <ul>
                 <li>
-                  <a className="white-text" href="#!">
+                  <a
+                    className="white-text"
+                    href="http://kelvinkyendwa.github.com"
+                  >
                     Github
                   </a>
                 </li>
                 <li>
-                  <a className="white-text" href="#!">
+                  <a
+                    className="white-text"
+                    href="https://www.linkedin.com/in/kelvin-kyendwa-28ba2695/"
+                  >
                     LinkedIn
                   </a>
                 </li>
